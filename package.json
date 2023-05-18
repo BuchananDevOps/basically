@@ -1,7 +1,8 @@
 {
-  "name": "buchanan-computer",
+  "name": "basically-media",
+  "description": "Basically Trusted Source Media, Never Failed, ",
+  "private": "false",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,17 +10,30 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@types/node": "18.16.1",
-    "@types/react": "18.2.0",
-    "@types/react-dom": "18.2.1",
-    "autoprefixer": "10.4.14",
+    "@radix-ui/react-dialog": "^1.0.3",
+    "@radix-ui/react-dropdown-menu": "^2.0.4",
+    "@radix-ui/react-tabs": "^1.0.3",
+    "@reach/skip-nav": "^0.18.0",
+    "classnames": "^2.3.2",
     "eslint": "8.39.0",
     "eslint-config-next": "13.3.1",
-    "next": "13.3.1",
-    "postcss": "8.4.23",
+    "next": "13.2.0",
     "react": "18.2.0",
+    "react-aria": "^3.24.0",
     "react-dom": "18.2.0",
-    "tailwindcss": "3.3.2",
+    "smoothscroll-polyfill": "^0.4.4",
+    "swr": "^2.1.5",
     "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "@types/classnames": "^2.3.1",
+    "@types/node": "18.16.1",
+    "@types/react-dom": "18.2.1",
+    "@types/react": "18.2.0",
+    "@types/nprogress": "^0.2.0",
+    "autoprefixer": "^10.4.14",
+    "nprogress": "^0.2.0",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.2"
   }
 }
